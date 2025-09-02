@@ -1,34 +1,30 @@
-깃허브 잔디를 심는 가장 기본적인 방법
-
-커밋하기 (Commit):
-
-깃허브에 연결된 로컬(내 컴퓨터) 저장소에서 코드를 수정하고 git add와 git commit 명령어를 사용해 변경사항을 기록합니다.
-
-커밋 메시지 작성 후 git push 명령어를 이용해 깃허브 원격 저장소에 올리면 잔디가 하나씩 생깁니다.
-
-공개(Public) 저장소뿐만 아니라 비공개(Private) 저장소에 커밋해도 잔디가 채워집니다. 단, 깃허브 설정에서 'Private contributions' 옵션이 활성화되어 있어야 합니다. (Settings -> Contributions)
-
-잔디가 잘 심어지는지 확인하기:
-
-커밋한 내용이 깃허브에 잘 올라갔는지 확인하세요.
-
-가끔 커밋한 날짜와 실제 잔디가 심어진 날짜가 다르게 표시될 수 있습니다. 이는 UTC(협정 세계시) 기준으로 표시되기 때문입니다. 한국 시간(KST)과 9시간의 차이가 있으니 이 점을 고려하세요.
-
-깃허브 잔디를 쉽게 채우는 팁
-매일 커밋할 아이디어가 떠오르지 않을 때 활용할 수 있는 방법들입니다.
-
-README.md 파일 관리:
-
-자신의 프로필 페이지나 프로젝트의 README.md 파일을 매일 조금씩 수정하거나 업데이트하세요. 프로젝트 진행 상황, 공부한 내용 등을 정리하는 것도 좋은 방법입니다.
-
-일상 기록 저장소 만들기:
-
-개인적인 일기, 학습 일지, 혹은 메모를 위한 전용 저장소를 만드세요. 매일 한 줄이라도 기록하고 커밋하면 잔디를 꾸준히 채울 수 있습니다.
-
-오픈 소스 프로젝트에 기여하기:
-
-작은 오타 수정, 문서 번역 등 난이도가 낮은 기여부터 시작해 보세요. 꼭 코드가 아니더라도 기여할 수 있는 방법은 많습니다.
-
-잔디 심기 자동화 도구 활용:
-
-매일 커밋을 자동으로 생성해 주는 스크립트나 프로그램을 활용하는 방법도 있습니다. 하지만 깃허브는 이런 인위적인 활동보다는 꾸준한 실제 기여를 더 가치 있게 생각합니다. 진정한 잔디의 의미는 '꾸준함'이니 이 점을 염두에 두시는 것이 좋습니다.
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=ffffff&height=180&text=Welcome%20My%20Github&animation=fadeIn&fontColor=000000&fontSize=60" />
+    </div>
+    <div align= "center"> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💕 Introduce myself 💕 </h2>  
+    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 안녕하세요 인공지능소프트웨어학과 25학번 박수진입니다. 다양한 분야를 탐구하며 성장하는 개발자입니다. </div> 
+    </div>
+    <div align= "center">
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
+    <div style="margin: 0 auto; text-align: center;" align= "center"> <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+          <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
+          <br/><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+          </div>
+    </div>
+    <div align= "center">
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
+    <div align= "center"> <a href=mailto:https://mail.google.com/mail/u/0/#inbox> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:https://mail.google.com/mail/u/0/#inbox"> </a>
+          </div>  <br> 
+    <div align= "center">  </div> 
+    </div>
+    <div align= "center"> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center"> <img src="https://github-readme-stats.vercel.app/api?username=parksuejin1026&bg_color=180,d0c19a,00000000&title_color=000000&text_color=000000"
+         /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parksuejin1026&layout=compact&bg_color=180,d0c19a,00000000&title_color=000000&text_color=000000"
+           /> </div> 
+    </div>
+    
