@@ -3,54 +3,58 @@
 ## 1. 오픈소스 소프트웨어 (OSS) 개요
 
 ### 1.1. OSS의 정의 및 의미
-* [cite_start]**OSS (Open Source Software)**: 누구나 특별한 제한 없이 **소스코드를 보고, 사용, 수정 및 재배포**가 가능한 오픈소스 라이선스를 만족하는 소프트웨어[cite: 683, 684, 692].
-* [cite_start]**OSI (Open Source Initiative)**: 공개 소스 정의(OSD)의 관리 및 촉진을 담당하는 비영리 조합[cite: 686, 688]. [cite_start]OSI가 인증하는 마크는 소프트웨어가 실제로 공개 소스라는 것을 증명함[cite: 689, 691].
+* **OSS (Open Source Software)**: 누구나 특별한 제한 없이 **소스코드를 보고, 사용, 수정 및 재배포**가 가능한 오픈소스 라이선스를 만족하는 소프트웨어.
+* **OSI (Open Source Initiative)**: 공개 소스 정의(OSD)의 관리 및 촉진을 담당하는 비영리 조합. OSI가 인증하는 마크는 소프트웨어가 실제로 공개 소스라는 것을 증명함.
 * **장점**:
-    * [cite_start]누구나 쉽게 연구하여 새로운 기술 개발에 활용할 수 있음[cite: 752].
-    * [cite_start]기업은 구체적인 요구 사항에 맞게 **커스터마이징**하고 혁신할 수 있음[cite: 757, 758].
-    * [cite_start]여러 사람들의 참여로 버그 개선 및 향상/발전 속도가 빠를 수 있음[cite: 693].
+    * 누구나 쉽게 연구하여 새로운 기술 개발에 활용할 수 있음.
+    * 기업은 구체적인 요구 사항에 맞게 **커스터마이징**하고 혁신할 수 있음.
+    * 여러 사람들의 참여로 버그 개선 및 향상/발전 속도가 빠를 수 있음.
 
 ### 1.2. 자유 소프트웨어와 OSS
-* [cite_start]**자유 소프트웨어 (Free Software)**: 리처드 스톨먼(Richard Stallman)이 설립한 자유 소프트웨어 재단과 GNU 프로젝트와 관련되며 **'자유'**를 중시함 (무료가 아닌 자유)[cite: 703, 704, 705, 709].
-* [cite_start]**카피레프트 (Copyleft)**: 제작자에게 저작권은 인정하지만, 누구나 소프트웨어를 복제해 사용할 수 있는 권리를 주어야 한다는 개념[cite: 710, 712].
+* **자유 소프트웨어 (Free Software)**: 리처드 스톨먼(Richard Stallman)이 설립한 자유 소프트웨어 재단과 GNU 프로젝트와 관련되며 **'자유'**를 중시함 (무료가 아닌 자유).
+* **카피레프트 (Copyleft)**: 제작자에게 저작권은 인정하지만, 누구나 소프트웨어를 복제해 사용할 수 있는 권리를 주어야 한다는 개념.
 
 ### 1.3. 오픈소스 개발 환경 및 사례
-* [cite_start]**오픈소스 지원 관리 서버**: 여러 개발자가 협업하고 공유하는 것을 지원하며, 대표적으로 **GitHub, GitLab, Bitbucket** 등이 있음[cite: 735, 737].
+* **오픈소스 지원 관리 서버**: 여러 개발자가 협업하고 공유하는 것을 지원하며, 대표적으로 **GitHub, GitLab, Bitbucket** 등이 있음.
 * **주요 OSS 사례**:
-    * [cite_start]**서비스 스택 모델 (LAMP)**: Linux, Apache, MySQL, PHP(Perl/Python)[cite: 769, 770, 771, 772, 773].
-    * [cite_start]**빅데이터/AI 분야**: Python, Scikit-learn, Tensorflow, Pytorch[cite: 783, 784, 786, 788, 790].
-    * [cite_start]**기타**: Android OS, Mozilla Firefox, Git, OpenOffice/LibreOffice[cite: 803, 804, 805, 806].
+    * **서비스 스택 모델 (LAMP)**: Linux, Apache, MySQL, PHP(Perl/Python).
+    * **빅데이터/AI 분야**: Python, Scikit-learn, Tensorflow, Pytorch.
+    * **기타**: Android OS, Mozilla Firefox, Git, OpenOffice/LibreOffice.
 
 ### 1.4. 오픈소스 소프트웨어 라이선스 (저작권)
-* [cite_start]**소스코드 반환 의무 라이선스 (Reciprocal)**: 수정 및 배포 시 해당 SW의 소스코드를 공개해야 하는 의무가 있음 (특허/영업비밀 유출 주의)[cite: 862, 881, 883, 884].
-    * **GPL (GNU General Public License)**: 가장 널리 알려진 **카피레프트** 라이선스. [cite_start]프로그램을 수정하고 배포하는 모든 경우에 **무조건 GPL로 공개**해야 함 (2차 저작물 포함)[cite: 895, 899, 901, 902]. (예: 리눅스 커널, Git) [cite_start][cite: 904].
-    * [cite_start]**AGPL (GNU Affero GPL)**: 네트워크로 상호 작용하는 SW의 소스코드도 공개해야 하는 조항을 추가 (서버에서 실행 시 사용자에게 소스코드 다운로드 권한 부여)[cite: 911, 914, 918]. (예: 몽고DB) [cite_start][cite: 920].
-    * **LGPL (GNU Lesser GPL)**: 완화된 GPL. [cite_start]전체 소스코드 대신 **사용된 오픈소스 라이브러리**에 대한 소스코드만 공개[cite: 927, 928, 930, 931].
-* [cite_start]**소스코드 반환 불필요 라이선스 (Permissive)**: 소스코드 공개 의무가 없는 비교적 제약이 적은 라이선스[cite: 865, 975].
-    * [cite_start]**Apache License 2.0**: 소스코드 공개 의무는 없으나, 라이선스 사본 포함 및 아파치 재단 SW임을 명시해야 함[cite: 941, 942, 945]. (예: 안드로이드, 하둡) [cite_start][cite: 947].
-    * **MIT License**: 가장 느슨한 조건. [cite_start]라이선스와 저작권 관련 명시 의무만 있음[cite: 956, 960, 961]. (예: jQuery) [cite_start][cite: 963].
+* **소스코드 반환 의무 라이선스 (Reciprocal)**: 수정 및 배포 시 해당 SW의 소스코드를 공개해야 하는 의무가 있음 (특허/영업비밀 유출 주의).
+    * **GPL (GNU General Public License)**: 가장 널리 알려진 **카피레프트** 라이선스. 프로그램을 수정하고 배포하는 모든 경우에 **무조건 GPL로 공개**해야 함 (2차 저작물 포함). (예: 리눅스 커널, Git).
+    * **AGPL (GNU Affero GPL)**: 네트워크로 상호 작용하는 SW의 소스코드도 공개해야 하는 조항을 추가 (서버에서 실행 시 사용자에게 소스코드 다운로드 권한 부여). (예: 몽고DB).
+    * **LGPL (GNU Lesser GPL)**: 완화된 GPL. 전체 소스코드 대신 **사용된 오픈소스 라이브러리**에 대한 소스코드만 공개.
+* **소스코드 반환 불필요 라이선스 (Permissive)**: 소스코드 공개 의무가 없는 비교적 제약이 적은 라이선스.
+    * **Apache License 2.0**: 소스코드 공개 의무는 없으나, 라이선스 사본 포함 및 아파치 재단 SW임을 명시해야 함. (예: 안드로이드, 하둡).
+    * **MIT License**: 가장 느슨한 조건. 라이선스와 저작권 관련 명시 의무만 있음. (예: jQuery).
 
 ---
 
 ## 2. Git 임시 저장 (Stash) 명령 실습
 
 ### 2.1. Git 4 영역과 Stash
-* [cite_start]**Git 4 영역**: 작업 디렉토리 (Working Directory), 스테이징 영역 (Staging Area), 깃 (지역) 저장소 (Git Local Repository), **임시 저장 (stash)**[cite: 1022, 1023, 1026, 1027, 1028, 1029].
-* [cite_start]**Stash의 역할**: 커밋할 필요 없이 현재 **작업 디렉토리와 스테이징 영역의 변경 사항**을 임시 저장소 (스택 구조)에 저장하고 [cite: 1072, 1073, 1077, 1084][cite_start], 작업 디렉토리와 스테이징 영역을 **마지막 커밋 내용으로 정리**하는 기능[cite: 1074, 1140].
-* [cite_start]**필요성**: 수정한 내용이나 커밋할 내용이 있는 상태에서 **다른 브랜치 이동**이나 **이전 커밋으로 이동**이 필요할 때, 현재 작업 내용을 보관하기 위해 사용[cite: 1114, 1118, 1119, 1120].
+* **Git 4 영역**: 작업 디렉토리 (Working Directory), 스테이징 영역 (Staging Area), 깃 (지역) 저장소 (Git Local Repository), **임시 저장 (stash)**.
+* **Stash의 역할**: 커밋할 필요 없이 현재 **작업 디렉토리와 스테이징 영역의 변경 사항**을 임시 저장소 (스택 구조)에 저장하고, 작업 디렉토리와 스테이징 영역을 **마지막 커밋 내용으로 정리**하는 기능.
+* **필요성**: 수정한 내용이나 커밋할 내용이 있는 상태에서 **다른 브랜치 이동**이나 **이전 커밋으로 이동**이 필요할 때, 현재 작업 내용을 보관하기 위해 사용.
 
 ### 2.2. Stash 명령 요약
 
 | 명령 | 설명 | 옵션 |
 | :--- | :--- | :--- |
-| **`git stash`** | [cite_start]작업 디렉토리와 스테이징 영역을 **저장하고 정리** (메시지 없이)[cite: 630, 1175]. | [cite_start]`-m '메시지'` : 메시지를 붙여 저장[cite: 631, 1176]. |
-| **`git stash save '메시지'`** | [cite_start]`git stash -m '메시지'`와 동일한 기능[cite: 632, 633, 1177, 1178]. | [cite_start]`-u`, `--include-untracked` : **Untracked 파일**도 포함해 저장[cite: 225, 226, 1182, 1183]. |
-| | | [cite_start]`-k`, `--keep-index` : **스테이징 영역은 제외**하고 작업 디렉토리만 저장[cite: 224, 1180, 1181]. |
-| **`git stash list`** | [cite_start]저장된 임시 저장소 목록을 확인 (`stash@{0}`이 가장 최신)[cite: 124, 1251, 1255]. | |
-| **`git stash show`** | [cite_start]가장 최신 stash 항목의 변경된 파일과 변화된 수만 표시[cite: 1267, 1269]. | [cite_start]`-p` : 파일 내용의 차이까지 자세히 보이기[cite: 235, 1270, 1271]. |
-| | | [cite_start]`stash@{n}` : 특정 stash 항목의 차이 확인[cite: 1273, 1274]. |
-| **`git stash apply`** | [cite_start]**최근 stash** 내용을 가져와 **작업 디렉토리에만 반영**하고 목록은 **그대로** 유지[cite: 642, 1205, 1289]. | [cite_start]`--index` : 작업 디렉토리와 **스테이징 영역 모두** 반영[cite: 645, 1207, 1293]. |
-| **`git stash apply stash@{n}`** | [cite_start]**지정된 stash** 내용을 가져와 반영[cite: 643, 646, 1290, 1294]. | |
+| **`git stash`** | 작업 디렉토리와 스테이징 영역을 **저장하고 정리** (메시지 없이). | `-m '메시지'` : 메시지를 붙여 저장. |
+| **`git stash save '메시지'`** | `git stash -m '메시지'`와 동일한 기능. | `-u`, `--include-untracked` : **Untracked 파일**도 포함해 저장. |
+| | | `-k`, `--keep-index` : **스테이징 영역은 제외**하고 작업 디렉토리만 저장. |
+| **`git stash list`** | 저장된 임시 저장소 목록을 확인 (`stash@{0}`이 가장 최신). | |
+| **`git stash show`** | 가장 최신 stash 항목의 변경된 파일과 변화된 수만 표시. | `-p` : 파일 내용의 차이까지 자세히 보이기. |
+| | | `stash@{n}` : 특정 stash 항목의 차이 확인. |
+| **`git stash apply`** | **최근 stash** 내용을 가져와 **작업 디렉토리에만 반영**하고 목록은 **그대로** 유지. | `--index` : 작업 디렉토리와 **스테이징 영역 모두** 반영. |
+| **`git stash apply stash@{n}`** | **지정된 stash** 내용을 가져와 반영. | |
+| **`git stash pop`** | **최근 stash** 내용을 가져와 반영하고 **삭제** (스택에서 제거). | `stash@{n}` : **지정된 stash** 내용을 가져와 반영하고 삭제. |
+| **`git stash drop`** | **최근 stash** 내용을 목록에서 **삭제**. | `stash@{n}` : **지정된 stash** 내용을 목록에서 삭제. |
+| **`git stash clear`** | **모든 stash 목록**을 한 번에 **삭제**. | |
+| **`git clean -f`** | **Untracked 파일**을 **강제로 삭제**하여 작업 디렉토리를 정리. | `-i` : 대화형 프롬프트를 통해 삭제 여부 선택. |
 | **`git stash pop`** | [cite_start]**최근 stash** 내용을 가져와 반영하고 **삭제** (스택에서 제거)[cite: 635, 1284]. | [cite_start]`stash@{n}` : **지정된 stash** 내용을 가져와 반영하고 삭제[cite: 636, 1285]. |
 | **`git stash drop`** | [cite_start]**최근 stash** 내용을 목록에서 **삭제**[cite: 574, 575, 1303, 1304]. | [cite_start]`stash@{n}` : **지정된 stash** 내용을 목록에서 삭제[cite: 569, 570, 1305, 1306]. |
 | **`git stash clear`** | [cite_start]**모든 stash 목록**을 한 번에 **삭제**[cite: 578, 1307, 1308, 1381]. | |
