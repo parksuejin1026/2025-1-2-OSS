@@ -55,7 +55,7 @@
 | **`git stash drop`** | **최근 stash** 내용을 목록에서 **삭제**. | `stash@{n}` : **지정된 stash** 내용을 목록에서 삭제. |
 | **`git stash clear`** | **모든 stash 목록**을 한 번에 **삭제**. | |
 | **`git clean -f`** | **Untracked 파일**을 **강제로 삭제**하여 작업 디렉토리를 정리. | `-i` : 대화형 프롬프트를 통해 삭제 여부 선택. |
-| **`git stash pop`** | [cite_start]**최근 stash** 내용을 가져와 반영하고 **삭제** (스택에서 제거)[cite: 635, 1284]. | [cite_start]`stash@{n}` : **지정된 stash** 내용을 가져와 반영하고 삭제[cite: 636, 1285]. |
-| **`git stash drop`** | [cite_start]**최근 stash** 내용을 목록에서 **삭제**[cite: 574, 575, 1303, 1304]. | [cite_start]`stash@{n}` : **지정된 stash** 내용을 목록에서 삭제[cite: 569, 570, 1305, 1306]. |
-| **`git stash clear`** | [cite_start]**모든 stash 목록**을 한 번에 **삭제**[cite: 578, 1307, 1308, 1381]. | |
-| **`git clean -f`** | [cite_start]**Untracked 파일**을 **강제로 삭제**하여 작업 디렉토리를 정리[cite: 616, 617, 618, 1335, 1336]. | [cite_start]`-i` : 대화형 프롬프트를 통해 삭제 여부 선택[cite: 602, 1321]. |
+| **`git stash pop`** | **최근 stash** 내용을 가져와 반영하고 **삭제** (스택에서 제거). | `stash@{n}` : **지정된 stash** 내용을 가져와 반영하고 삭제. |
+| **`git stash drop`** | **최근 stash** 내용을 목록에서 **삭제**. | `stash@{n}` : **지정된 stash** 내용을 목록에서 삭제. |
+| **`git stash clear`** | **모든 stash 목록**을 한 번에 **삭제**. | |
+| **`git clean -f`** | **Untracked 파일**을 **강제로 삭제**하여 작업 디렉토리를 정리. | `-i` : 대화형 프롬프트를 통해 삭제 여부 선택. |
