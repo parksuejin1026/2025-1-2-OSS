@@ -22,7 +22,7 @@ Git 병합은 브랜치 이력 상태에 따라 두 가지 기본 방식으로 �
 | :--- | :--- | :--- |
 | **기본 병합** | `git merge topic` | 유연하게 병합함. 이력 상태에 따라 Fast-forward나 3-way 병합을 수행함. |
 | **Non Fast-forward**| `git merge --no-ff topic` | Fast-forward가 가능해도 **강제로 3-way 병합** 커밋을 생성함. 브랜치 분기 기록을 확실히 남길 때 사용함. |
-| **Squash Merge** | `git merge --squash topic` | 대상 브랜치(`topic`)의 **모든 커밋을 하나로 뭉개서** 현재 브랜치에 가져옴. 병합 후 **직접 커밋**을 해야 함. |
+| **Squash Merge** | `git merge --squash topic` | 대상 브랜치(`topic`)의 **모든 커밋을 하나로 뭉개서** 현재 브랜치에 가져옴. add 한 상태가 되기 떄문에 병합 후 **직접 커밋**을 해야 함. |
 | **Fast-forward Only**| `git merge --ff-only topic` | 일렬 상태일 때만 병합을 진행하고, 아니면 거부함. |
 | **메시지 지정** | `git merge -m 'merge msg'` | 병합 커밋 메시지를 편집기 실행 없이 바로 입력함. |
 
