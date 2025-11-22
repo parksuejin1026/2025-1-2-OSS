@@ -11,9 +11,6 @@
 
 <div align= "center"> 
     <br>
-    ## 💕 Introduce myself 💕
-    <div style="font-weight: 700; font-size: 15px;"> 안녕하세요 인공지능소프트웨어학과 25학번 박수진입니다. 다양한 분야를 탐구하며 성장하는 개발자입니다. </div> 
-    <br>
     <p>동양미래대학교 인공지능소프트웨어학과 20251285 박수진</p>
 </div>
 
