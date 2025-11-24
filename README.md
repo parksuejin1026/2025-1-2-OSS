@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <h1 style="color: #F05032;">혼자서 공부하는 OSS 💻</h1>
+    <h1 style="color: #F05032;">혼자서 공부하는 OSS(Open Sourece Software) 💻</h1>
     <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">
     <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white">
     <p><strong>Git/OSS 수업 자료 및 개인 학습 내용을 정리한 레포지토리입니다.</strong></p>
