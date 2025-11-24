@@ -1,24 +1,24 @@
 <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=ffffff&height=180&text=Welcome%20My%20Github&animation=fadeIn&fontColor=000000&fontSize=60" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=ffffff&height=180&text=Welcome%20My%20Github&animation=fadeIn&fontColor=000000&fontSize=60" />
 </div>
 
 <div align="center">
-    <h1 style="color: #F05032;">혼자서 공부하는 OSS(Open Sourece Software) 💻</h1>
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white">
-    <p><strong>Git/OSS 수업 자료 및 개인 학습 내용을 정리한 레포지토리입니다.</strong></p>
+    <h1 style="color: #F05032;">혼자서 공부하는 OSS(Open Sourece Software) 💻</h1>
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white">
+    <p><strong>Git/OSS 수업 자료 및 개인 학습 내용을 정리한 레포지토리입니다.</strong></p>
 </div>
 
-<div align= "center"> 
-    <br>
-    <p>동양미래대학교 인공지능소프트웨어학과 20251285 박수진</p>
+<div align= "center"> 
+    <br>
+    <p>동양미래대학교 인공지능소프트웨어학과 20251285 박수진</p>
 </div>
 
 <br>
 
 <div align="center">
-    ## 📚 OSS/Git 학습 내용 (Study)
-    
+    ## 📚 OSS/Git 학습 내용 (Study)
+    
 | Chapter | 핵심 요약 | 바로가기 |
 | :---: | :--- | :---: |
 | **Chapter 2** | Git 환경 설정, 저장소 생성 및 관리, VS Code와 리눅스 기초 명령 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/2Chapter.md) |
@@ -29,6 +29,6 @@
 | **Chapter 7** | OSS 정의/라이선스 (GPL, MIT), 카피레프트, Git Stash (임시 저장) 명령 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/7Chapter.md) |
 | **Chapter 8** | 브랜치 병합(`Fast-forward`, `3-way`) 조건 및 차이, 병합 옵션 (`--no-ff`, `--squash`), 충돌 해결 절차 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/8Chapter.md) |
 | **Chapter 9** | `Rebase`의 목적과 과정, 커밋 이력 수정 (`--amend`, `rebase -i`), VS Code Git 활용 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/9Chapter.md) |
-| **Chapter 10** | **Git reset/revert를 이용한 버전 되돌리기 및 커밋 취소** | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/10Chapter.md) |
-    
+| **Chapter 10** | 버전 되돌리기 (`reset`)와 커밋 취소 (`revert`) | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/10Chapter.md) |
+    
 </div>
