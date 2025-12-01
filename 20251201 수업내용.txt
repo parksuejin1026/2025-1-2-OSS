@@ -1,0 +1,9 @@
+20251201 수업내용
+git stash
+git stash apply --index 하면 pop 쓴거랑 다르게 스태시 목록 삭제 안됨
+
+git revert HEAD --no--edit 기능 알기 (커밋 로그가 남음)
+
+git config --global alias.lg1 'log --oneline'
+
+git reset --hard, --mixed, --soft의 차이점 제대로 알기 (커밋 로그도 사라짐)
