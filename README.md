@@ -30,5 +30,6 @@
 | **Chapter 8**   | 브랜치 병합(`Fast-forward`, `3-way`) 조건 및 차이, 병합 옵션 (`--no-ff`, `--squash`), 충돌 해결 절차 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/8Chapter.md) |
 | **Chapter 9**   | `Rebase`의 목적과 과정, 커밋 이력 수정 (`--amend`, `rebase -i`), VS Code Git 활용 | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/9Chapter.md) |
 | **Chapter 10**  | 버전 되돌리기 (`reset`)와 커밋 취소 (`revert`) | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/10Chapter.md) |
+| **Pull Request (PR) 정리** | **Pull Request 기초:** Push/Pull, Upstream/Origin 개념, PR 정의, Fork/PR/Merge/Sync 과정 (PDF 통합). | [![바로가기](https://img.shields.io/badge/바로가기-999999?style=flat)](./Study/PullRequest.md) |
     
 </div>
